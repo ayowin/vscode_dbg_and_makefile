@@ -4,9 +4,25 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "build release",
             "type": "shell",
             "command": "make",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "build debug",
+            "type": "shell",
+            "command": "make debug",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "make clean",
             "problemMatcher": [
                 "$gcc"
             ]

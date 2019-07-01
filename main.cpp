@@ -13,5 +13,7 @@ int main(int argc,char** argv)
     int c = 0;
     c = add(1,2);
 
+    printf("c: %d\n",c);
+
     return 0;
 }

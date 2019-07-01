@@ -8,7 +8,7 @@
             "name": "g++ build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/vscode_dbg_and _makefile",
+            "program": "${workspaceRoot}/debug/vscode_dbg_and_makefile",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -22,7 +22,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "build",
+            "preLaunchTask": "build debug",
             "miDebuggerPath": "/usr/bin/gdb"
         }
     ]
