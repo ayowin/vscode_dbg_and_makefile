@@ -8,7 +8,7 @@
             "name": "g++ build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/debug/vscode_dbg_and_makefile",
+            "program": "${workspaceRoot}/debug/${workspaceRootFolderName}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
